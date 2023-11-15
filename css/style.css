@@ -1,0 +1,80 @@
+body{
+    background-image: url(../Images/black.jpg);
+    background-size: cover;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    align-items: center;
+   
+   
+
+}
+.content{
+  background-color: rgba(119, 92, 92,.5);
+    width: 300px;
+   padding: 3px;
+    height: 550px;
+    border-radius: 10px;
+    
+}
+.data{
+    padding-left: 10px;
+}
+.header h2{
+    text-align: center;
+
+}
+.content img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 7px white solid;
+    
+}
+.text{
+  
+    padding-top: 50px;
+}
+h2::first-letter{
+    font-size: 50px;
+
+}
+label::first-letter{
+    font-size: 50px;
+}
+.data label{
+    font-size: 25px;
+}
+.data input{
+    width: 90%;
+    margin-bottom: 10px;
+}
+.btn{
+    text-align: center;
+    margin-top: 10px;
+}
+button{
+    padding: 3px 16px;
+    border-radius: 20px;
+    font-size: 17px;
+    background-color: yellow;
+}
+.links {
+    padding-left: 10px;
+    font-size: 23px;
+    line-height: 2;
+    color: black;
+}
+
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color:aqua;
+  }
+  a:active {
+color: blue;
+  }

@@ -1,0 +1,130 @@
+
+.all{
+  height: 100vh;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header{
+    height: 10%;
+    position: relative;
+  }
+  .header ul{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .header .nav li:first-child {
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  .header .nav li{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .header .nav li i{
+
+    color: black;
+    font-size: larger;
+  }
+  .middle{
+    text-align: center;
+    width: 60%;
+    height: 71%;
+    margin-right: 20%;
+    margin-left: 20%;
+  
+  }
+  .middle img{
+    width: 300px;
+    margin-bottom: 35px;
+  }
+  .middle .inputt{
+    position: relative;
+    
+  }
+  .middle .inputt input{
+    width: calc(100% - 104px);
+    border: none;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    /* padding-left: 100px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0 0 0 / 13%);
+    outline: none;
+    padding-left: 94px;
+    padding-right: 10px;
+    border-radius: 16px;
+    height: 35px;
+  }
+  .middle .inputt .leftIcon{
+    position: absolute;
+    left: 10px;
+    bottom: 50%;
+    transform: translateY(50%)
+  }
+  .middle .inputt .leftIcon ul{
+    margin: 0;
+    padding: 0;
+  }
+  .middle .inputt .leftIcon li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+
+  }
+  .middle .inputt .rightIcon{
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    top: 9px; 
+  }
+  .middle .btns{
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  .footer{
+    background: #f2f2f2;
+    height: 19%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .egy{
+    border-bottom: 1px solid #0000005c;
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 0.1%;
+   
+  }
+  .last{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .last .section1{
+  width: 40%;
+  
+  }
+  .last .lsection{
+    width: 20%;
+  }
+  .last .rsection{
+    width: 30%;
+  }
+  .last ul{
+    display: flex;
+    justify-content: space-between
+  }
+  .last  li{
+    display: flex;
+    justify-content: space-between
+  }
